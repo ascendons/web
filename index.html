@@ -268,28 +268,29 @@
     </div>
   </section>
 
-    <section class="ftco-section-parallax">
-      <div class="parallax-img d-flex align-items-center">
-        <div class="container">
-          <div class="row d-flex justify-content-center">
-            <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-              <h2>Subcribe to our Newsletter</h2>
-              <p>Stay updated with the latest trends in technologies</p>
-              <div class="row d-flex justify-content-center mt-5">
-                <div class="col-md-6">
-                  <form action="#" class="subscribe-form">
-                    <div class="form-group">
-                      <span class="icon icon-paper-plane"></span>
-                      <input type="text" class="form-control" placeholder="Enter email address">
-                    </div>
-                  </form>
-                </div>
+  <section class="ftco-section-parallax">
+    <div class="parallax-img d-flex align-items-center">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-8 text-center heading-section heading-section-white ftco-animate">
+            <h2>Join the Ascendons Community</h2>
+            <p class="mb-4">Subscribe to our newsletter and stay ahead with the latest trends, insights, and innovations in technology. Be the first to know about our updates, tips, and exclusive offers!</p>
+            <div class="row d-flex justify-content-center mt-4">
+              <div class="col-md-8 col-lg-6">
+                <form action="#" class="subscribe-form">
+                  <div class="form-group d-flex">
+                    <input type="email" class="form-control rounded-left" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn btn-primary rounded-right">Subscribe</button>
+                  </div>
+                  <small class="text-white-50">We respect your privacy. Unsubscribe anytime.</small>
+                </form>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
     <!-- <section class="ftco-section">
       <div class="container">
@@ -425,43 +426,144 @@
         </div>
       </div>
     </section>
-    
-    <section class="ftco-section ftco-counter" id="section-counter">
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-5">
-          <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-            <h2>Our achievements</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+
+  <section class="ftco-section ftco-counter text-white" id="section-counter">
+    <div class="container">
+      <div class="row justify-content-center mb-5 pb-5">
+        <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+          <h2>Our Journey at ASCENDONS</h2>
+          <p class="text-white">At Ascendons, we believe in pushing boundaries and achieving the extraordinary. From empowering businesses to delighting customers, our journey is defined by innovation, dedication, and results. Here's a glimpse of what we've accomplished so far:</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
+          <div class="block-18 text-center">
+            <div class="text text-white">
+              <strong class="number" data-number="15">0</strong>
+              <span class="text-white">Happy Clients Trusting Ascendons</span>
+              <p class="mt-2">Our clients are at the heart of everything we do. Their success is our greatest achievement.</p>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18 text-center">
-              <div class="text">
-                <strong class="number" data-number="400">0</strong>
-                <span>Customers are satisfied with our professional support</span>
-              </div>
+        <div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
+          <div class="block-18 text-center">
+            <div class="text">
+              <strong class="number" data-number="32">0</strong>
+              <span class="text-white">Innovative Solutions Delivered</span>
+              <p class="mt-2">From cutting-edge technology to creative strategies, we’ve built solutions that inspire growth.</p>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18 text-center">
-              <div class="text">
-                <strong class="number" data-number="1000">0</strong>
-                <span>Amazing preset options to be mixed and combined</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18 text-center">
-              <div class="text">
-                <strong class="number" data-number="8000">0</strong>
-                <span>Average response time on live chat support channel</span>
-              </div>
+        </div>
+        <div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
+          <div class="block-18 text-center">
+            <div class="text">
+              <strong class="number" data-number="60">0</strong>
+              <span class="text-white">Moments of Exceptional Support</span>
+              <p class="mt-2">Our team is always here, ensuring your experience with Ascendons is seamless and rewarding.</p>
             </div>
           </div>
         </div>
       </div>
-    </section>
+      <div class="row mt-5">
+        <div class="col-md-12 text-center">
+          <a href="#contact" class="btn btn-primary btn-lg">Join the Ascendons Journey</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    // Function to animate the numbers
+    function animateNumbers() {
+      const counters = document.querySelectorAll('.number');
+      const speed = 200; // The lower the number, the faster the count
+
+      counters.forEach(counter => {
+        const updateCount = () => {
+          const target = +counter.getAttribute('data-number');
+          const count = +counter.innerText.replace(/,/g, ''); // Remove commas for calculation
+
+          const increment = target / speed;
+
+          if (count < target) {
+            counter.innerText = Math.ceil(count + increment).toLocaleString(); // Add commas back
+            setTimeout(updateCount, 10);
+          } else {
+            counter.innerText = target.toLocaleString(); // Format number with commas
+          }
+        };
+
+        updateCount();
+      });
+    }
+
+    // Trigger the animation when the section is in view
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          animateNumbers();
+          observer.unobserve(entry.target);
+        }
+      });
+    });
+
+    observer.observe(document.getElementById('section-counter'));
+
+    // Add hover effects to the blocks
+    const blocks = document.querySelectorAll('.block-18');
+    blocks.forEach(block => {
+      block.addEventListener('mouseenter', () => {
+        block.style.transform = 'scale(1.05)';
+        block.style.transition = 'transform 0.3s ease';
+      });
+      block.addEventListener('mouseleave', () => {
+        block.style.transform = 'scale(1)';
+      });
+    });
+  </script>
+
+  <style>
+    .block-18 {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 10px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .block-18:hover {
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+    .number {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #fff;
+    }
+    .block-18 span {
+      display: block;
+      margin-top: 10px;
+      font-size: 1.2rem;
+      color: #fff;
+      font-weight: bold;
+    }
+    .block-18 p {
+      font-size: 1rem;
+      color: rgba(255, 255, 255, 0.8);
+      margin-top: 10px;
+    }
+    .btn-primary {
+      background-color: #007bff;
+      border-color: #007bff;
+      font-size: 1.2rem;
+      padding: 10px 30px;
+      border-radius: 50px;
+      transition: background-color 0.3s ease;
+    }
+    .btn-primary:hover {
+      background-color: #0056b3;
+      border-color: #0056b3;
+    }
+  </style>
+
+
 
     <section class="ftco-section bg-light">
       <div class="container">
