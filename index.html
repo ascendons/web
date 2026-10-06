@@ -1,744 +1,164 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <link rel="icon" type="image/png" href="images/favicon.png">
-    <title>Ascendons Tech</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/ascendons.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,700,800" rel="stylesheet">
+    <!-- Primary Meta Tags -->
+    <title>Ascendons | Fast MVPs, Custom CRMs & Product Engineering</title>
+    <meta
+      name="title"
+      content="Ascendons | Fast MVPs, Custom CRMs & Product Engineering"
+    />
+    <meta
+      name="description"
+      content="Ascendons builds production-ready MVPs in 4-6 weeks, custom CRMs, AI assistants and automation for founders and enterprises, and makes its own products like BriefGuard for legal teams."
+    />
+    <meta
+      name="keywords"
+      content="MVP development, fast time to market, product engineering, software consultancy, custom CRM, BriefGuard, legal tech, WhatsApp automation, WhatsApp Cloud API, fundraising platforms, workflow automation, platform engineering, nonprofit technology, enterprise automation, admin systems, workflow platforms, Surat software company"
+    />
+    <meta name="author" content="Ascendons" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="language" content="English" />
+    <meta name="geo.region" content="IN-GJ" />
+    <meta name="geo.placename" content="Surat" />
+    <meta name="geo.position" content="21.189579;72.886239" />
+    <meta name="ICBM" content="21.189579, 72.886239" />
 
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Ascendons" />
+    <meta property="og:url" content="https://www.ascendons.in/" />
+    <meta
+      property="og:title"
+      content="Ascendons | Fast MVPs, Custom CRMs & Product Engineering"
+    />
+    <meta
+      property="og:description"
+      content="Production-ready MVPs in 4-6 weeks, custom CRMs, AI and automation, from the team behind BriefGuard."
+    />
+    <meta
+      property="og:image"
+      content="https://www.ascendons.in/ascendons.png"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="en_US" />
 
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://www.ascendons.in/" />
+    <meta
+      property="twitter:title"
+      content="Ascendons | Fast MVPs, Custom CRMs & Product Engineering"
+    />
+    <meta
+      property="twitter:description"
+      content="Production-ready MVPs in 4-6 weeks, custom CRMs, AI and automation, from the team behind BriefGuard."
+    />
+    <meta
+      property="twitter:image"
+      content="https://www.ascendons.in/ascendons.png"
+    />
 
-    <link rel="stylesheet" href="css/aos.css">
+    <!-- Additional SEO & Verification -->
+    <meta name="theme-color" content="#031d54" />
+    <link rel="canonical" href="https://www.ascendons.in/" />
 
-    <link rel="stylesheet" href="css/ionicons.min.css">
-
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="css/jquery.timepicker.css">
-
-
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-</head>
-<body>
-
-<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-    <div class="container">
-        <a class="navbar-brand" href="./">
-            <img src="images/favicon.png" alt="Ascendons Logo" class="navbar-logo" style="height: 30px; margin-right: 10px;"> <!-- Adjust height and margin as needed -->
-            Ascendons
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
-                aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="oi oi-menu"></span> Menu
-        </button>
-
-        <div class="collapse navbar-collapse" id="ftco-nav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active"><a href="./" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="./about" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="./services" class="nav-link">Services</a></li>
-                <li class="nav-item cta"><a href="./contact" class="nav-link"><span>Get in touch</span></a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-<!-- END nav -->
-
-<!-- <div class="js-fullheight"> -->
-<div class="hero-wrap js-fullheight">
-    <div class="overlay"></div>
-    <div id="particles-js"></div>
-    <div class="container">
-        <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
-            <div class="col-md-6 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
-                <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Smart, Scalable, and
-                    Stunning <strong>Software</strong> Solutions.</h1>
-                <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><a href="./contact"
-                                                                                      class="btn btn-primary btn-outline-white px-5 py-3">Get
-                    in touch</a></p>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--  HOME Section Start-->
-<div class="bg-light">
-    <section class="ftco-section-featured ftco-animate">
-        <div class="container-fluid justify-content-center" data-scrollax-parent="true">
-            <div class="row no-gutters d-flex align-items-center" data-scrollax=" properties: { translateY: '-30%'}">
-                <div class="col-md-6">
-                    <div class="row no-gutters">
-                        <div class="col-md-12">
-                            <div class="row no-gutters d-flex justify-content-end mt-20">
-                                <!-- <div class="col-md-4 align-content-around justify-content-center">
-                                    <a href="http://www.wattglow.com" class="featured-img">
-                                        <div class="text-1 p-4 d-flex align-items-center">
-                                            <h3>WattGlow<br><span class="tag">Website</span></h3>
-                                        </div>
-                                        <img src="images/wattglow.png" class="img-fluid" alt="WattGlow">
-                                        <div class="text p-4 d-flex align-items-center">
-                                            <div class="user d-flex align-items-center">
-                                                <div class="user-img mr-3"
-                                                     style="background-image: url(images/favicon.png);"></div>
-                                                <h3>Ascendons<br><span class="position">Company</span></h3>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--About section Division-->
-            <div class="row mt-5 d-flex justify-content-center">
-                <div class="col-md-8 text-center heading-section ftco-animate">
-                    <h2 class="h1"><strong class="px-3">UI/UX, Backend, Web designers</strong> with more than 5 years of
-                        experience in designing, developing and deploying web applications, websites and mobile apps.
-                    </h2>
-                    <p><a href="./contact" class="btn btn-primary mt-3 py-3 px-5">Get in touch</a></p>
-                </div>
-            </div>
-        </div>
-    </section>
-</div>
-<!--  Home Section End-->
-
-<!--Offering Section Start-->
-<section class="ftco-section bg-light">
-    <div class="container">
-        <div class="row justify-content-center mb-5 pb-5">
-            <div class="col-md-8 text-center heading-section ftco-animate">
-                <span class="subheading">What We Offer</span>
-                <h2 class="mb-4">Web &amp; Mobile App Design, Bring Your Ideas to Life</h2>
-                <p>At Ascendons, we specialize in transforming your ideas into innovative digital solutions. Whether you
-                    need a stunning website, a high-performance mobile app, or a custom software solution, we’ve got you
-                    covered. From startups to established enterprises, we work on everything where tech is needed.</p>
-                <a href="./contact" class="btn btn-primary mt-3 py-3 px-5">Get Started Today</a>
-            </div>
-        </div>
-        <div class="row">
-            <!-- Strategy -->
-            <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-                <div class="media block-6 services d-block text-center">
-                    <div class="d-flex justify-content-center">
-                        <div class="icon color-3 d-flex justify-content-center mb-3">
-                            <span class="align-self-center icon-lightbulb-o"></span>
-                        </div>
-                    </div>
-                    <div class="media-body p-2 mt-3">
-                        <h3 class="heading">Strategy</h3>
-                        <p>We craft tailored strategies to align with your business goals, ensuring your digital
-                            solutions drive growth and success. From market research to product roadmaps, we’ve got you
-                            covered.</p>
-                        <a href="#" class="btn btn-outline-primary mt-2">Learn More</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Design -->
-            <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-                <div class="media block-6 services d-block text-center">
-                    <div class="d-flex justify-content-center">
-                        <div class="icon color-1 d-flex justify-content-center mb-3">
-                            <span class="align-self-center icon-laptop"></span>
-                        </div>
-                    </div>
-                    <div class="media-body p-2 mt-3">
-                        <h3 class="heading">Design</h3>
-                        <p>Our design team creates visually stunning, user-friendly interfaces that captivate your
-                            audience and enhance user experience. We focus on aesthetics, usability, and brand
-                            consistency.</p>
-                        <a href="#" class="btn btn-outline-primary mt-2">Learn More</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Development -->
-            <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-                <div class="media block-6 services d-block text-center">
-                    <div class="d-flex justify-content-center">
-                        <div class="icon color-2 d-flex justify-content-center mb-3">
-                            <span class="align-self-center icon-gear"></span>
-                        </div>
-                    </div>
-                    <div class="media-body p-2 mt-3">
-                        <h3 class="heading">Development</h3>
-                        <p>We build scalable, high-performance applications and websites using the latest technologies.
-                            From custom software to third-party integrations, we deliver solutions that grow with your
-                            business.</p>
-                        <a href="#" class="btn btn-outline-primary mt-2">Learn More</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Help & Support -->
-            <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-                <div class="media block-6 services d-block text-center">
-                    <div class="d-flex justify-content-center">
-                        <div class="icon color-4 d-flex justify-content-center mb-3">
-                            <span class="align-self-center icon-live_help"></span>
-                        </div>
-                    </div>
-                    <div class="media-body p-2 mt-3">
-                        <h3 class="heading">Help &amp; Support</h3>
-                        <p>From deployment to maintenance, we provide end-to-end support to ensure your systems run
-                            smoothly and efficiently. Our team is always here to help with updates, troubleshooting, and
-                            scaling.</p>
-                        <a href="#" class="btn btn-outline-primary mt-2">Learn More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--Offering Section End-->
-
-<!--Newsletter Section Start-->
-<section class="ftco-section-parallax">
-    <div class="parallax-img d-flex align-items-center">
-        <div class="container">
-            <div class="row d-flex justify-content-center">
-                <div class="col-md-8 text-center heading-section heading-section-white ftco-animate">
-                    <h2>Join the Ascendons Community</h2>
-                    <p class="mb-4">Subscribe to our newsletter and stay ahead with the latest trends, insights, and
-                        innovations in technology. Be the first to know about our updates, tips, and exclusive
-                        offers!</p>
-                    <div class="row d-flex justify-content-center mt-4">
-                        <div class="col-md-8 col-lg-6">
-                            <form action="#" class="subscribe-form">
-                                <div class="form-group d-flex">
-                                    <input type="email" class="form-control rounded-left" placeholder="Email" required>
-                                    <button type="submit" class="btn btn-primary rounded-right">Subscribe</button>
-                                </div>
-                                <small class="text-white-50">We respect your privacy. Unsubscribe anytime.</small>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--  Newsletter Section End-->
-
-<!-- Automation Solutions Section Start -->
-<section class="ftco-section">
-    <div class="container">
-        <div class="row justify-content-center mb-5 pb-5">
-            <div class="col-md-8 text-center heading-section ftco-animate">
-                <span class="subheading">Why Choose Us?</span>
-                <h2 class="mb-4">Automation Solutions for Your Business</h2>
-                <p>We deliver cutting-edge automation solutions to help your business thrive. Let us streamline your processes and drive efficiency.</p>
-            </div>
-        </div>
-        <div class="row">
-            <!-- Save Money -->
-            <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-                <div class="media block-6 services d-block text-center">
-                    <div class="d-flex justify-content-center">
-                        <div class="icon color-1 d-flex justify-content-center mb-3">
-                            <span class="align-self-center">
-                                <i class="fas fa-money-bill-alt fa-3x"></i>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="media-body p-2 mt-3">
-                        <h3 class="heading">Save Money</h3>
-                        <p>We help you save money by automating repetitive tasks and reducing manual effort. Our solutions optimize processes, cutting down on time and labor costs while boosting productivity.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Reduce Cycle Time -->
-            <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-                <div class="media block-6 services d-block text-center">
-                    <div class="d-flex justify-content-center">
-                        <div class="icon color-2 d-flex justify-content-center mb-3">
-                            <span class="align-self-center"><i class="fas fa-stopwatch fa-3x"></i></span>
-                        </div>
-                    </div>
-                    <div class="media-body p-2 mt-3">
-                        <h3 class="heading">Reduce Cycle Time</h3>
-                        <p>Our automation solutions speed up your processes, allowing you to handle more tasks in less time. This increases your capacity without the need for additional labor, while faster service keeps your customers happy.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Improve Quality -->
-            <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-                <div class="media block-6 services d-block text-center">
-                    <div class="d-flex justify-content-center">
-                        <div class="icon color-3 d-flex justify-content-center mb-3">
-                            <span class="align-self-center"><i class="fas fa-award fa-3x"></i></span>
-                        </div>
-                    </div>
-                    <div class="media-body p-2 mt-3">
-                        <h3 class="heading">Improve Quality</h3>
-                        <p>We help you minimize errors and rework by implementing automated quality checks and process improvements. This ensures consistent, high-quality results that protect your reputation and customer trust.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Become Competitive -->
-            <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-                <div class="media block-6 services d-block text-center">
-                    <div class="d-flex justify-content-center">
-                        <div class="icon color-4 d-flex justify-content-center mb-3">
-                            <span class="align-self-center"><i class="fas fa-trophy fa-3x"></i></span>
-                        </div>
-                    </div>
-                    <div class="media-body p-2 mt-3">
-                        <h3 class="heading">Become Competitive</h3>
-                        <p>Your competitors are already automating their processes. We help you stay ahead by implementing automation solutions that enhance efficiency, reduce costs, and improve customer satisfaction.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <div class="container">
-        <div class="row justify-content-center mb-5 pb-5">
-            <div class="col-md-8 text-center heading-section ftco-animate">
-                <h2 class="mb-4">AI Solutions Tailored for Your Success</h2>
-                <p>We deliver cutting-edge AI solutions to help your business thrive in a competitive landscape. Let us empower you with intelligent tools and insights.</p>
-            </div>
-        </div>
-        <div class="row">
-            <!-- Smarter Decision-Making -->
-            <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-                <div class="media block-6 services d-block text-center">
-                    <div class="d-flex justify-content-center">
-                        <div class="icon color-1 d-flex justify-content-center mb-3">
-                            <span class="align-self-center"><i class="fas fa-brain fa-3x"></i></span>
-                        </div>
-                    </div>
-                    <div class="media-body p-2 mt-3">
-                        <h3 class="heading">Smarter Decision-Making</h3>
-                        <p>We provide AI tools that analyze data and deliver actionable insights, helping you make faster, smarter decisions.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Personalized Customer Experiences -->
-            <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-                <div class="media block-6 services d-block text-center">
-                    <div class="d-flex justify-content-center">
-                        <div class="icon color-2 d-flex justify-content-center mb-3">
-                            <span class="align-self-center"><i class="fas fa-user-cog fa-3x"></i></span>
-                        </div>
-                    </div>
-                    <div class="media-body p-2 mt-3">
-                        <h3 class="heading">Personalized Experiences</h3>
-                        <p>Our AI solutions create tailored customer interactions, enhancing engagement and building loyalty.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 24/7 Customer Support -->
-            <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-                <div class="media block-6 services d-block text-center">
-                    <div class="d-flex justify-content-center">
-                        <div class="icon color-3 d-flex justify-content-center mb-3">
-                            <span class="align-self-center"><i class="fas fa-headset fa-3x"></i></span>
-                        </div>
-                    </div>
-                    <div class="media-body p-2 mt-3">
-                        <h3 class="heading">24/7 Customer Support</h3>
-                        <p>We implement AI-powered chatbots and virtual assistants to provide instant, round-the-clock support for your customers.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Predictive Analytics -->
-            <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-                <div class="media block-6 services d-block text-center">
-                    <div class="d-flex justify-content-center">
-                        <div class="icon color-4 d-flex justify-content-center mb-3">
-                            <span class="align-self-center"><i class="fas fa-chart-line fa-3x"></i></span>
-                        </div>
-                    </div>
-                    <div class="media-body p-2 mt-3">
-                        <h3 class="heading">Predictive Analytics</h3>
-                        <p>Our AI solutions predict trends and customer behavior, helping you stay ahead of the competition.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Automation Solutions Section End -->
-
-<!-- Tech Consulting Services Section Start -->
-<section class="ftco-section bg-light">
-    <div class="container">
-        <div class="row justify-content-center mb-5 pb-5">
-            <div class="col-md-8 text-center heading-section ftco-animate">
-                <span class="subheading">Our Expertise</span>
-                <h2 class="mb-4">Tech Solutions We Deliver</h2>
-                <p>We provide cutting-edge technology consulting services to help your business innovate, optimize, and grow. Here’s how we can add value to your organization.</p>
-            </div>
-        </div>
-        <div class="row">
-            <!-- Digital Transformation -->
-            <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-                <div class="media block-6 services d-block text-center">
-                    <div class="d-flex justify-content-center">
-                        <div class="icon color-1 d-flex justify-content-center mb-3">
-                            <span class="align-self-center">
-                                <i class="fas fa-digital-tachograph fa-3x"></i>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="media-body p-2 mt-3">
-                        <h3 class="heading">Digital Transformation</h3>
-                        <p>We help businesses embrace digital technologies to streamline operations, improve customer experiences, and stay competitive in a rapidly evolving market.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Cloud Solutions -->
-            <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-                <div class="media block-6 services d-block text-center">
-                    <div class="d-flex justify-content-center">
-                        <div class="icon color-2 d-flex justify-content-center mb-3">
-                            <span class="align-self-center"><i class="fas fa-cloud fa-3x"></i></span>
-                        </div>
-                    </div>
-                    <div class="media-body p-2 mt-3">
-                        <h3 class="heading">Cloud Solutions</h3>
-                        <p>We design and implement cloud-based solutions to enhance scalability, flexibility, and cost-efficiency for your business.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- AI & Machine Learning -->
-            <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-                <div class="media block-6 services d-block text-center">
-                    <div class="d-flex justify-content-center">
-                        <div class="icon color-3 d-flex justify-content-center mb-3">
-                            <span class="align-self-center"><i class="fas fa-robot fa-3x"></i></span>
-                        </div>
-                    </div>
-                    <div class="media-body p-2 mt-3">
-                        <h3 class="heading">AI & Machine Learning</h3>
-                        <p>We develop AI-driven solutions to automate processes, predict trends, and deliver personalized customer experiences.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Cybersecurity -->
-            <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-                <div class="media block-6 services d-block text-center">
-                    <div class="d-flex justify-content-center">
-                        <div class="icon color-4 d-flex justify-content-center mb-3">
-                            <span class="align-self-center"><i class="fas fa-shield-alt fa-3x"></i></span>
-                        </div>
-                    </div>
-                    <div class="media-body p-2 mt-3">
-                        <h3 class="heading">Cybersecurity</h3>
-                        <p>We protect your business from cyber threats with robust security strategies, tools, and best practices.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Software Development -->
-            <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-                <div class="media block-6 services d-block text-center">
-                    <div class="d-flex justify-content-center">
-                        <div class="icon color-1 d-flex justify-content-center mb-3">
-                            <span class="align-self-center"><i class="fas fa-code fa-3x"></i></span>
-                        </div>
-                    </div>
-                    <div class="media-body p-2 mt-3">
-                        <h3 class="heading">Software Development</h3>
-                        <p>We build custom software solutions tailored to your business needs, ensuring scalability, performance, and user satisfaction.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Data Analytics & Insights -->
-            <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-                <div class="media block-6 services d-block text-center">
-                    <div class="d-flex justify-content-center">
-                        <div class="icon color-2 d-flex justify-content-center mb-3">
-                            <span class="align-self-center"><i class="fas fa-chart-pie fa-3x"></i></span>
-                        </div>
-                    </div>
-                    <div class="media-body p-2 mt-3">
-                        <h3 class="heading">Data Analytics & Insights</h3>
-                        <p>We help you harness the power of data to make informed decisions, identify trends, and uncover new opportunities.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- IT Infrastructure Management -->
-            <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-                <div class="media block-6 services d-block text-center">
-                    <div class="d-flex justify-content-center">
-                        <div class="icon color-3 d-flex justify-content-center mb-3">
-                            <span class="align-self-center"><i class="fas fa-server fa-3x"></i></span>
-                        </div>
-                    </div>
-                    <div class="media-body p-2 mt-3">
-                        <h3 class="heading">IT Infrastructure Management</h3>
-                        <p>We optimize and manage your IT infrastructure to ensure reliability, scalability, and cost-efficiency.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- IoT Solutions -->
-            <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-                <div class="media block-6 services d-block text-center">
-                    <div class="d-flex justify-content-center">
-                        <div class="icon color-4 d-flex justify-content-center mb-3">
-                            <span class="align-self-center"><i class="fas fa-wifi fa-3x"></i></span>
-                        </div>
-                    </div>
-                    <div class="media-body p-2 mt-3">
-                        <h3 class="heading">IoT Solutions</h3>
-                        <p>We design and implement IoT solutions to connect devices, collect data, and drive smarter decision-making.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Tech Consulting Services Section End -->
-
-<!--Our Journey Section Start-->
-<section class="ftco-section ftco-counter " id="section-counter">
-    <div class="container">
-        <div class="row justify-content-center mb-5 pb-5">
-            <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-                <h2>Our Journey at ASCENDONS</h2>
-                <p class="text-white">At Ascendons, we believe in pushing boundaries and achieving the extraordinary.
-                    From empowering businesses to delighting customers, our journey is defined by innovation,
-                    dedication, and results. Here's a glimpse of what we've accomplished so far:</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
-                <div class="block-18 text-center">
-                    <div class="text text-white">
-                        <strong class="number" data-number="15">0</strong>
-                        <span class="text-white">Happy Clients Trusting Ascendons</span>
-                        <p class="mt-2">Our clients are at the heart of everything we do. Their success is our greatest
-                            achievement.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
-                <div class="block-18 text-center">
-                    <div class="text">
-                        <strong class="number" data-number="32">0</strong>
-                        <span class="text-white">Innovative Solutions Delivered</span>
-                        <p class="mt-2">From cutting-edge technology to creative strategies, we’ve built solutions that
-                            inspire growth.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
-                <div class="block-18 text-center">
-                    <div class="text">
-                        <strong class="number" data-number="60">0</strong>
-                        <span class="text-white">Moments of Exceptional Support</span>
-                        <p class="mt-2">Our team is always here, ensuring your experience with Ascendons is seamless and
-                            rewarding.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row mt-5">
-            <div class="col-md-12 text-center">
-                <a href="./contact" class="btn btn-primary btn-lg">Join the Ascendons Journey</a>
-            </div>
-        </div>
-    </div>
-</section>
-<script>
-    // Function to animate the numbers
-    function animateNumbers() {
-        const counters = document.querySelectorAll('.number');
-        const speed = 200; // The lower the number, the faster the count
-
-        counters.forEach(counter => {
-            const updateCount = () => {
-                const target = +counter.getAttribute('data-number');
-                const count = +counter.innerText.replace(/,/g, ''); // Remove commas for calculation
-
-                const increment = target / speed;
-
-                if (count < target) {
-                    counter.innerText = Math.ceil(count + increment).toLocaleString(); // Add commas back
-                    setTimeout(updateCount, 10);
-                } else {
-                    counter.innerText = target.toLocaleString(); // Format number with commas
-                }
-            };
-
-            updateCount();
-        });
-    }
-
-    // Trigger the animation when the section is in view
-    const observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                animateNumbers();
-                observer.unobserve(entry.target);
+    <!-- Structured Data (Schema.org JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.ascendons.in/#organization",
+            "name": "Ascendons",
+            "url": "https://www.ascendons.in/",
+            "logo": "https://www.ascendons.in/ascendons.png",
+            "sameAs": [
+              "https://www.linkedin.com/company/ascendons1/",
+              "https://www.instagram.com/ascendonstech/"
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+919523297323",
+              "contactType": "customer service",
+              "email": "contact@ascendons.com",
+              "areaServed": "IN",
+              "availableLanguage": ["English", "Hindi", "Gujarati"]
+            },
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Plot No. J-72, Vastu Villa, Mansarovar, Godadara",
+              "addressLocality": "Surat",
+              "addressRegion": "Gujarat",
+              "postalCode": "395012",
+              "addressCountry": "IN"
             }
-        });
-    });
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.ascendons.in/#website",
+            "url": "https://www.ascendons.in/",
+            "name": "Ascendons",
+            "description": "Product engineering studio shipping production-ready MVPs, custom CRMs, AI and automation.",
+            "publisher": {
+              "@id": "https://www.ascendons.in/#organization"
+            }
+          },
+          {
+            "@type": "ProfessionalService",
+            "@id": "https://www.ascendons.in/#service",
+            "name": "Ascendons Product Engineering",
+            "url": "https://www.ascendons.in/",
+            "image": "https://www.ascendons.in/ascendons.png",
+            "priceRange": "$$",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Plot No. J-72, Vastu Villa, Mansarovar, Godadara",
+              "addressLocality": "Surat",
+              "addressRegion": "Gujarat",
+              "postalCode": "395012",
+              "addressCountry": "IN"
+            },
+            "telephone": "+919523297323"
+          }
+        ]
+      }
+    </script>
 
-    observer.observe(document.getElementById('section-counter'));
+    <!-- <script src="https://cdn.jsdelivr.net/npm/jparticles@latest/dist/jparticles.min.js"></script> -->
 
-    // Add hover effects to the blocks
-    const blocks = document.querySelectorAll('.block-18');
-    blocks.forEach(block => {
-        block.addEventListener('mouseenter', () => {
-            block.style.transform = 'scale(1.05)';
-            block.style.transition = 'transform 0.3s ease';
-        });
-        block.addEventListener('mouseleave', () => {
-            block.style.transform = 'scale(1)';
-        });
-    });
-</script>
-<style>
-    .block-18 {
-        background: rgba(255, 255, 255, 0.1);
-        padding: 20px;
-        border-radius: 10px;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-8FHZGCZ236"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      // Analytics stays off until the visitor accepts the cookie banner (see App.tsx).
+      gtag("consent", "default", {
+        analytics_storage: "denied",
+        ad_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied",
+      });
+      gtag("js", new Date());
 
-    .block-18:hover {
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    }
-
-    .number {
-        font-size: 3rem;
-        font-weight: bold;
-        color: #fff;
-    }
-
-    .block-18 span {
-        display: block;
-        margin-top: 10px;
-        font-size: 1.2rem;
-        color: #fff;
-        font-weight: bold;
-    }
-
-    .block-18 p {
-        font-size: 1rem;
-        color: rgba(255, 255, 255, 0.8);
-        margin-top: 10px;
-    }
-
-    .btn-primary {
-        background-color: #007bff;
-        border-color: #007bff;
-        font-size: 1.2rem;
-        padding: 10px 30px;
-        border-radius: 50px;
-        transition: background-color 0.3s ease;
-    }
-
-    .btn-primary:hover {
-        background-color: #0056b3;
-        border-color: #0056b3;
-    }
-</style>
-<!-- Our Journey Section End -->
-
-<!-- Footer Section Start -->
-<footer class="ftco-footer ftco-bg-dark ftco-section">
-    <div class="container">
-        <div class="row mb-5">
-            <div class="col-md">
-                <div class="ftco-footer-widget mb-4">
-                    <h2 class="ftco-heading-2">ASCENDONS</h2>
-                    <p>At ASCENDONS, we’re not just building apps and websites—we’re building relationships. Let’s work
-                        together to create something extraordinary. Your success is our mission.</p>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="ftco-footer-widget mb-4 ml-5">
-                    <h2 class="ftco-heading-2">Quick Links</h2>
-                    <ul class="list-unstyled">
-                        <li><a href="./" class="py-2 d-block">Home</a></li>
-                        <li><a href="./services" class="py-2 d-block">Services</a></li>
-                        <li><a href="./about" class="py-2 d-block">About</a></li>
-                        <li><a href="./contact" class="py-2 d-block">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="ftco-footer-widget mb-4">
-                    <h2 class="ftco-heading-2">Contact Information</h2>
-                    <ul class="list-unstyled">
-                        <li><a href="./contact" class="py-2 d-block">Plot No. J-72, Vastu Villa, Mansarovar, Godadara, Gujarat -
-                            395012</a></li>
-                        <li><a href="./contact" class="py-2 d-block">+91 7258078088</a></li>
-                        <li><a href="./contact" class="py-2 d-block">contact@ascendons.com</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="ftco-footer-widget mb-4">
-                    <ul class="ftco-footer-social list-unstyled float-md-left float-lft">
-                        <li class="ftco-animate"><a href="https://www.linkedin.com/company/ascendons1"><span class="icon-linkedin"></span></a></li>
-                        <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                        <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12 text-center text-white">
-
-          Copyright &copy;2025 All rights reserved by <strong> <a href="#" target="_blank" class="text-white">ASCENDONS</a></strong>
-        </div>
-      </div>
-    </div>
-  </footer>
-    
-  
-
-  <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-
-
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/bootstrap-datepicker.js"></script>
-  <script src="js/jquery.timepicker.min.js"></script>
-  <script src="js/particles.min.js"></script>
-  <script src="js/particle.js"></script>
-  <script src="js/scrollax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="js/google-map.js"></script>
-  <script src="js/main.js"></script>
-    
+      gtag("config", "G-8FHZGCZ236");
+    </script>
+    <script type="module" crossorigin src="/assets/index-DuThIvEv.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Co1-M8SD.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- <div id="particles-js"></div>
+    <script src="particles.js"></script> -->
   </body>
 </html>
